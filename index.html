@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+
+    <title>Your Name | 부동산 데이터 인사이트</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb1" aria-hidden="true"></div>
+    <div class="bg-orb orb2" aria-hidden="true"></div>
+
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#main" aria-label="홈으로">
+          <span class="brand-name">Your Name</span>
+          <span class="brand-tag">Real Estate AI Insights</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="메인 내비게이션">
+          <ul class="nav-list">
+            <li><a href="#topics">주요 주제</a></li>
+            <li><a href="#experience">데이터 엔지니어링</a></li>
+            <li><a href="#contact">연락</a></li>
+          </ul>
+        </nav>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="메뉴 열기"
+          aria-expanded="false"
+          aria-controls="mobileNav"
+          type="button"
+        >
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+
+        <nav class="mobile-nav" id="mobileNav" aria-label="모바일 내비게이션">
+          <div class="mobile-nav-inner">
+            <div class="mobile-nav-top">
+              <span class="mobile-nav-title">메뉴</span>
+              <button class="mobile-close" id="mobileClose" type="button" aria-label="메뉴 닫기">
+                닫기
+              </button>
+            </div>
+            <ul class="nav-list mobile-list">
+              <li><a href="#topics">주요 주제</a></li>
+              <li><a href="#experience">데이터 엔지니어링</a></li>
+              <li><a href="#contact">연락</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="히어로 섹션">
+        <div class="container hero-inner">
+          <p class="hero-kicker">부동산 데이터를 기반으로 인사이트를 만들다</p>
+          <h1 class="hero-title">
+            부동산 데이터를 활용하여 사이사이의 인사이트를 잡아내고 최대의 가치를 끌어냅니다.
+          </h1>
+          <p class="hero-subtitle">
+            경매와 물건 데이터를 다루며, 예측 모델 개발과 데이터 엔지니어링 경험을 바탕으로 실전형 인사이트를
+            설계합니다.
+          </p>
+
+          <div class="hero-cta">
+            <a
+              class="btn btn-primary"
+              href="https://forms.gle/zVVh5E8YseYMzWMK9"
+              id="coffeeChatBtn"
+              data-toast-message="커피챗 신청 링크입니다."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              커피챗(구글폼)
+            </a>
+            <a
+              class="btn btn-secondary"
+              href="mailto:your-email@example.com?subject=%EB%B6%80%EB%8F%99%EC%82%B0%20AI%20%EC%9D%B8%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EC%9D%98%EB%AC%B8"
+            >
+              이메일로 문의
+            </a>
+          </div>
+
+          <div class="hero-badges" aria-label="핵심 포인트">
+            <span class="badge">Prediction AI</span>
+            <span class="badge">Real Estate Data</span>
+            <span class="badge">Data Engineering</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="topics">
+        <div class="container">
+          <div class="section-header">
+            <h2>무엇을 만들어왔나요?</h2>
+            <p>요청하신 3가지 주제를 모바일에서도 보기 좋게 카드로 정리했습니다.</p>
+          </div>
+
+          <div class="grid-cards" aria-label="주제 카드">
+            <article class="card reveal">
+              <h3>1. 부동산 경매 예측 AI 모델 개발</h3>
+              <p>
+                경매 데이터에서 신호를 찾아, 리스크/가치 관점의 예측과 의사결정을 돕는 모델을 설계합니다.
+              </p>
+              <ul class="card-list">
+                <li>데이터 전처리 및 피처 설계</li>
+                <li>모델 학습/검증 및 평가 지표 정리</li>
+                <li>결과를 인사이트로 정리</li>
+              </ul>
+            </article>
+
+            <article class="card reveal">
+              <h3>2. 부동산 물건 관련 예측 AI 모델 개발</h3>
+              <p>
+                물건 특성(입지/속성/상태 등)을 반영해 예측 성능을 끌어올리고, 실무에 바로 적용 가능한 형태로
+                제공합니다.
+              </p>
+              <ul class="card-list">
+                <li>물건 데이터 구조화</li>
+                <li>예측 모델 고도화</li>
+                <li>운영 관점의 지표 관리</li>
+              </ul>
+            </article>
+
+            <article class="card reveal" id="experience">
+              <h3>3. 데이터 엔지니어링 경험 풍부</h3>
+              <p>
+                수집부터 적재, 품질 관리, 파이프라인 운영까지. 예측 모델이 안정적으로 돌아가도록 기반을 탄탄하게
+                만듭니다.
+              </p>
+              <ul class="card-list">
+                <li>데이터 파이프라인 구축</li>
+                <li>품질 검증/모니터링</li>
+                <li>재현 가능한 프로세스 설계</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-label="연락 섹션">
+        <div class="container">
+          <div class="contact-card reveal">
+            <h2>연락하기</h2>
+            <p class="contact-sub">
+              모델/데이터 관련 협업이나 피드백이 필요하시면 편하게 연락 주세요. 커피챗은 구글폼 연결 후 예약이
+              가능해요.
+            </p>
+
+            <div class="contact-cta">
+              <a
+                class="btn btn-primary btn-wide"
+                href="https://forms.gle/zVVh5E8YseYMzWMK9"
+                id="coffeeChatBtn2"
+                data-toast-message="커피챗 신청 링크입니다."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                커피챗(구글폼)
+              </a>
+              <a
+                class="btn btn-secondary btn-wide"
+                href="mailto:your-email@example.com?subject=%EB%B6%80%EB%8F%99%EC%82%B0%20AI%20%ED%98%91%EC%97%85%20%EC%9D%98%EC%83%81"
+              >
+                이메일로 문의
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-copy">
+          © <span id="year"></span> <span class="footer-brand">Your Name</span>. All rights reserved.
+        </p>
+        <p class="footer-muted">모바일 우선 레이아웃으로 제작된 개인 브랜딩 랜딩 페이지입니다.</p>
+      </div>
+    </footer>
+
+    <!--
+      Manual check (모바일 환경에서만 간단히 확인):
+      1) 햄버거 메뉴 토글/닫기 동작
+      2) 메뉴 링크 클릭 시 해당 섹션으로 스크롤 + 메뉴 닫힘
+      3) 커피챗 버튼 클릭 시 토스트 안내 표시
+      4) 이메일 버튼 클릭 시 mailto 링크 동작
+      5) 360px~480px 폭에서 카드/버튼 레이아웃 깨짐 여부
+    -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
+
